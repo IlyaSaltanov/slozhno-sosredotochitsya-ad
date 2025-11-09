@@ -8,6 +8,33 @@
   width: 375px;
   height: 668px;
   border: 1px solid white;
+  display: grid;
+  /* grid-template-areas: 
+  "bulb",
+  "header__theme-menu",
+  "noFocus";
+  grid-template-columns: 1fr; */
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.bulb{
+  color: red;
+  /* width: 33px;
+  height: 26px; */
+  /* top: 10px;
+  left: 304px; */
+  /* grid-area: bulb; */
+}
+
+/* .header__theme-menu {
+  grid-area: header__theme-menu;
 }
 
 
+.noFocus{
+  grid-area: noFocus;
+} */
+
+/* .titleInHeader{
+  grid-area: titleInHeader;
+} */
