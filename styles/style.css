@@ -11,13 +11,8 @@
   width: 375px;
   height: 668px;
   border: 1px solid white;
-  display: grid;
-  /* grid-template-areas: 
-  "bulb",
-  "header__theme-menu",
-  "noFocus";
-  grid-template-columns: 1fr; */
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr; */
   background-image: var(--backgroundImage);
 }
 
@@ -35,6 +30,9 @@
   display: flex;
   justify-content:space-evenly; 
   align-items: center;
+  font-family: 'IBM Plex mono';
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .circle{
@@ -46,7 +44,10 @@
 }
 
 .header__theme-menu {
-  
+  width: 70px;
+  height: 98px;
+  margin-top: 39px;
+  margin-left: auto;
 }
 
 
