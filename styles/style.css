@@ -20,7 +20,7 @@
   color: red;
   width: 33px;
   height: 26px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
   margin-top: 10px;
   margin-right: 19px;
@@ -90,4 +90,19 @@
   font-weight: 700;
   font-size: 116px;
   line-height: 83%;
+ }
+
+ .titleInHeader{
+  width: 355px;
+  height: 117px;
+  margin-top: 55px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 66px;
+  background: #FF0070;
+  font-family: 'IBM Plex Mono';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #000028;
  }
