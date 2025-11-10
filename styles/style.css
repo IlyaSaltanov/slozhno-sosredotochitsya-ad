@@ -66,10 +66,17 @@
   font-family: 'IBM Plex Mono';
   font-weight: 400;
   font-size: 18px;
-  text-align: center;
   text-transform: lowercase;
   background: none;        /* убирает фон */
   border: none;           /* убирает рамку */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 70px;
+  height: 26px;
+  padding-right: 13px;
+  padding-left: 13px;
+
 }
 
  .header__theme-menu-list{
@@ -129,4 +136,8 @@
   left: 339.96px;
   border-top: 1px solid #FF0070;
   border-right:  1px solid #FF0070;
+ }
+
+ button:active{
+  border: 1px solid #FF0070;
  }
