@@ -19,11 +19,18 @@
 
 .bulb{
   color: red;
-  /* width: 33px;
-  height: 26px; */
-  /* top: 10px;
-  left: 304px; */
-  /* grid-area: bulb; */
+  width: 33px;
+  height: 26px;
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 19px;
+  margin-left: auto;
+  width: 52px;
+  height: 26px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 /* .header__theme-menu {
