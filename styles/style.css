@@ -1,6 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 :root {
-  --backgroundImage: url("images/cover-image-dark.png");
+  --backgroundImage: url("../images/cover-image-dark.png");
 }
 
 .page {
@@ -18,7 +18,7 @@
   "noFocus";
   grid-template-columns: 1fr; */
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  background-image: ;
+  background-image: var(--backgroundImage);
 }
 
 .bulb{
