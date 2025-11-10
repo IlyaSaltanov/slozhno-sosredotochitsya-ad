@@ -1,4 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+:root {
+  --backgroundImage: url("images/cover-image-dark.png");
+}
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -15,6 +18,7 @@
   "noFocus";
   grid-template-columns: 1fr; */
   grid-template-rows: 1fr 1fr 1fr 1fr;
+  background-image: ;
 }
 
 .bulb{
