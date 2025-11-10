@@ -29,16 +29,24 @@
   width: 52px;
   height: 26px;
   display: flex;
-  justify-content: center; 
+  justify-content:space-evenly; 
   align-items: center;
 }
 
-/* .header__theme-menu {
-  grid-area: header__theme-menu;
+.circle{
+  width: 9px;
+  height: 9px;
+  background-color: red;
+  border-radius: 100%;
+  box-shadow: 0px 0px 4px 2px #FF0070;
+}
+
+.header__theme-menu {
+  
 }
 
 
-.noFocus{
+/* .noFocus{
   grid-area: noFocus;
 } */
 
