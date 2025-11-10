@@ -24,7 +24,7 @@
   text-align: center;
   margin-top: 10px;
   margin-right: 19px;
-  margin-left: auto;
+  margin-left: 304px;
   width: 52px;
   height: 26px;
   display: flex;
@@ -105,4 +105,26 @@
   font-size: 18px;
   line-height: 23.4px;
   color: #000028;
+ }
+
+ .rectangle79{
+  position: absolute;
+  z-index: 100;
+  width: 25.04px;
+  height: 25px;
+  margin-top: 633px;
+  margin-left: 10px;
+  border-bottom: 1px solid #FF0070;
+  border-left:  1px solid #FF0070;
+ }
+
+ .rectangle77{
+  position: absolute;
+  z-index: 100;
+  width: 25.04px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 339.96px;
+  border-top: 1px solid #FF0070;
+  border-right:  1px solid #FF0070;
  }
