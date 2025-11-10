@@ -57,13 +57,14 @@
   font-size: 18px;
   text-align: center;
   text-transform: lowercase;
+  background: none;        /* убирает фон */
+  border: none;           /* убирает рамку */
+
 }
 
-
-/* .noFocus{
-  grid-area: noFocus;
-} */
-
-/* .titleInHeader{
-  grid-area: titleInHeader;
-} */
+ .header__theme-menu-list{
+  height: inherit;
+  width: inherit;
+  display: block;
+  justify-content: center;
+ }
