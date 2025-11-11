@@ -7,6 +7,7 @@
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
+/* header */
 .header{
   width: 375px;
   height: 668px;
@@ -140,4 +141,13 @@
 
  button:active{
   border: 1px solid #FF0070;
+ }
+
+
+ /* main */
+ .main{
+  width: 375px;
+  height: 5355px;
+  /* background-color: #FF0070; */
+  
  }
