@@ -1,6 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 :root {
   --backgroundImage: url("../images/cover-image-dark.png");
+  --accent-color: #FF0070;
 }
 
 .page {
@@ -95,7 +96,7 @@
   margin-top: 65px;
   margin-left: 10px;
   margin-right: 10px;
-  text-shadow: 4px 4px 0px #FF0070;
+  text-shadow: 4px 4px 0 var(--accent-color);
   font-family: 'IBM Plex Mono';
   font-weight: 700;
   font-size: 116px;
