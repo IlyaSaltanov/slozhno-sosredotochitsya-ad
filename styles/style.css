@@ -97,7 +97,8 @@
   text-shadow: 4px 4px 0px #FF0070;
   font-family: 'IBM Plex Mono';
   font-weight: 700;
-  font-size: 116px;
+  /* font-size: 116px; */
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
  }
 
