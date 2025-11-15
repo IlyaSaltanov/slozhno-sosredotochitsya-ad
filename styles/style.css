@@ -154,4 +154,46 @@
   width: 375px;
   height: 5355px;
   background-color: var(--background-color-forMain);
+  display: grid;
+  border: 1px solid white;
  }
+ .sectionOne{
+  width: 375px;
+  height: 949px;
+  padding-right: 10px;
+  padding-left: 10px;
+ }
+
+ .sectionOne-title{
+  color: var(--accent-color);
+  width: 355px;
+  height: 47px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.Multitasking, .Dopamine{
+  width: 355px;
+  height: 431px;
+  /* border: 0.5px solid white; */
+  margin-bottom: 10px;
+}
+
+.Rectangle56, .Rectangle55{
+  width: 355px;
+  height: 23px;
+  background: var(--accent-color);
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--background-color-forMain);
+  }
+
+.Multitasking-content, .Dopamine-content{
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+}
