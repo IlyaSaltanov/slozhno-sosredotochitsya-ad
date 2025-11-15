@@ -154,7 +154,6 @@
   width: 375px;
   height: 5355px;
   background-color: var(--background-color-forMain);
-  display: grid;
   border: 1px solid white;
  }
  .sectionOne{
@@ -164,7 +163,7 @@
   padding-left: 10px;
  }
 
- .sectionOne-title{
+ .sectionOne-title, .sectionTwo_title{
   color: var(--accent-color);
   width: 355px;
   height: 47px;
@@ -192,8 +191,17 @@
   color: var(--background-color-forMain);
   }
 
-.Multitasking-content, .Dopamine-content{
+.Multitasking-content, .Dopamine-content, .sectionTwo_Multitasking_content, .Eat_content, .Gadgets_content{
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
+  color: #F1B2CE;
 }
+
+.sectionTwo{
+  width: 375px;
+  height: 1119px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
