@@ -2,6 +2,7 @@
 :root {
   --backgroundImage: url("../images/cover-image-dark.png");
   --accent-color: #FF0070;
+  --background-color-forMain: #000028;
 }
 
 .page {
@@ -152,5 +153,5 @@
  .main{
   width: 375px;
   height: 5355px;
-  background-color: #000028;
+  background-color: var(--background-color-forMain);
  }
