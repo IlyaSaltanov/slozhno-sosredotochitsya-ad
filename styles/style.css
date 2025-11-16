@@ -7,7 +7,10 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
-  --gapBetweenImg: 10px
+  --gapBetweenImg: 10px;
+  --marginForMain: 40px;
+  --insideGapSection: 20px;
+  --cardGap: 10px;
 }
 
 
@@ -201,13 +204,13 @@ button:focus {
   background-color: var(--colorDark_for_background_and_text);
   padding-left: var(--paddingDevice);
   padding-right: var(--paddingDevice);
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-top: var(--marginForMain);
+  margin-bottom: var(--marginForMain);
 }
 
 .section {
   display: grid;
-  gap: 20px;
+  gap: var(--insideGapSection);
   grid-auto-rows: auto;
 }
 
@@ -231,7 +234,7 @@ button:focus {
 
 .card {
   display: grid;
-  gap: 10px;
+  gap: var(--cardGap);
 }
 
 .card-title {
@@ -266,7 +269,7 @@ button:focus {
 
 .advice-card {
   display: grid;
-  gap: 10px;
+  gap: var(--cardGap);
 }
 
 .advice-card-title {
@@ -308,15 +311,46 @@ button:focus {
 }
 
 .footer{
+  height: 100dvh;
+  position: relative;
+  background-color: var(--colorDark_for_background_and_text);
 }
 
 .focus{
+  position: absolute;
+  width: 348px;
+  height: 96px;
+  top: 286px;
+  left: 14px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 116px;
+  line-height: 83%;
+  letter-spacing: 0%;
+  color: var(--pinkColorForTitle);
+  text-shadow: 2px 2px 0px #FF0070;
 }
 
 .footer_corner-bottom-left {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: var(--paddingDevice);
+  bottom: var(--paddingDevice);
+  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  z-index: 100;
 }
 
 .footer_corner-top-right{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: var(--paddingDevice);
+  right: var(--paddingDevice);
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  z-index: 100;
 }
 
 
