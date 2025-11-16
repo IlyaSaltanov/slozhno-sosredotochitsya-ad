@@ -9,35 +9,19 @@
 
 
 .page {
-  /* background-image: var(--backgroundImage);
-  background-size: auto 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
   min-width: 375px;
-  width: 375px;
-  position: relative;
+  margin: 0px;
 }
 
-.page::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
+.header {
+  min-width: 375px;
   height: 100vh;
   background-image: var(--backgroundImage);
   background-size: cover;
   background-position: center;
-  z-index: -1;
-}
-
-.header {
-  height: 100vh;
-  width: 100%;
-  border: 1px solid white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
 }
 
 .rec-label {
