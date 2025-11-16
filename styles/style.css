@@ -11,6 +11,7 @@
   width: 375px;
   position: relative;
   display: grid;
+  background-color: var(--colorDark_for_background_and_text);
 }
 
 /* ===== HEADER ===== */
