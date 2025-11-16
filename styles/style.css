@@ -10,13 +10,16 @@
 .page {
   width: 375px;
   position: relative;
+  display: grid;
+  row-gap: 40px;
+  background-color: var(--colorDark_for_background_and_text);
 }
 
 /* ===== HEADER ===== */
 .header {
   width: 375px;
   height: 668px;
-  border: 1px solid white;
+  /* border: 1px solid white; */
   background-image: var(--backgroundImage);
 }
 
@@ -149,8 +152,7 @@ button:active {
 /* ===== MAIN CONTENT ===== */
 .main {
   width: 375px;
-  background-color: var(--colorDark_for_background_and_text);
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 /* Общие стили для секций */
@@ -282,6 +284,10 @@ button:active {
 .footer{
   width: 375px;
   height: 668px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .focus{
@@ -294,4 +300,27 @@ button:active {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 2px 2px 0px #FF0070;
+}
+
+.footer_corner-bottom-left {
+  position: absolute;
+  z-index: 100;
+  width: 25px;
+  height: 25px;
+  top: 632px;
+  left: 10px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}
+
+.footer_corner-top-right{
+  position: absolute;
+  z-index: 100;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  right: 10px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
 }
