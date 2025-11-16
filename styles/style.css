@@ -105,7 +105,7 @@
   text-transform: lowercase;
 } */
 
-.header__theme-menu-button{
+.header__theme-menu-button {
   background: none;
   border: none;
   padding: 0;
@@ -218,12 +218,6 @@ button:focus {
   margin-top: 38px;
 }
 
-.section-distractions {
-}
-
-.section-advice {
-}
-
 .section-title {
   font-family: "IBM Plex Mono";
   font-weight: 700;
@@ -292,33 +286,27 @@ button:focus {
   color: var(--colorForText);
 }
 
-.text {
-}
-
-.highlight-text {
-}
-
-.gallery{
+.gallery {
   display: grid;
   gap: var(--gapBetweenImg);
   margin-bottom: var(--marginForMain);
 }
 
-.gallery_grid{
+.gallery_grid {
   display: grid;
   gap: var(--gapBetweenImg);
 }
-.gallery_grid img{
+.gallery_grid img {
   width: 100%;
 }
 
-.footer{
+.footer {
   height: 100dvh;
   position: relative;
   background-color: var(--colorDark_for_background_and_text);
 }
 
-.focus{
+.focus {
   position: absolute;
   width: 348px;
   height: 96px;
