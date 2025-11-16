@@ -124,6 +124,18 @@
 
 
 .main-title {
+  position: absolute;
+  width: 355px;
+  height: 192px;
+  top: 238px;
+  left: 10px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  letter-spacing: 0%;
+  color: var(--pinkColorForTitle);
+  text-shadow: 4px 4px 0px var(--accent-color);
 }
 
 .header-description {
