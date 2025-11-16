@@ -258,3 +258,21 @@ button:active {
   font-size: 18px;
   text-shadow: 2px 2px 1px var(--accent-color);
 }
+
+.gallery{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: repeat(auto, auto); */
+  /* grid-template-rows: max-content; */
+  grid-auto-rows: auto;
+  gap: 10px;
+}
+
+.gallery_grid{
+  display: grid;
+  gap: 10px;
+}
+
+.gallery_grid img {
+  width: 100%;
+}
