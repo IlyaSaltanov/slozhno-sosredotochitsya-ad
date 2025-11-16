@@ -16,12 +16,12 @@
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  position: relative;
 }
 
 .header {
   min-width: 375px;
   height: 100vh;
-
 }
 
 .rec-label {
