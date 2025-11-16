@@ -7,7 +7,7 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
-  --gapBetweenImg: 9px;
+  --gapBetweenImg: 10px;
   --marginForMain: 40px;
   --insideGapSection: 20px;
   --cardGap: 10px;
@@ -215,7 +215,7 @@ button:focus {
 }
 
 .section-why {
-  margin-top: 38px;
+  margin-top: 40px;
 }
 
 .section-title {
@@ -332,7 +332,7 @@ button:focus {
   z-index: 100;
 }
 
-.footer_corner-top-right{
+.footer_corner-top-right {
   position: absolute;
   width: 25px;
   height: 25px;
@@ -348,7 +348,7 @@ button:focus {
   .page {
     background-attachment: fixed;
   }
-  .header{
+  .header {
     height: 100vh;
   }
 }
