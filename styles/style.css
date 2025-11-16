@@ -33,10 +33,29 @@
 }
 
 .rec-label {
-
+  position: absolute;
+  color: var(--accent-color);
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 33px;
+  height: 26px;
+  top: 10px;
+  left: 304px;
 }
 
 .rec-dot {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 18px;
+  left: 347px;
+  background-color: var(--accent-color);
+  border-radius: 100%;
+  box-shadow: 0px 0px 4px 2px #FF0070;
 }
 
 .header__theme-menu {
