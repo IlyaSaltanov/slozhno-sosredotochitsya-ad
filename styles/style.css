@@ -204,8 +204,8 @@ button:focus {
   background-color: var(--colorDark_for_background_and_text);
   padding-left: var(--paddingDevice);
   padding-right: var(--paddingDevice);
-  margin-top: var(--marginForMain);
-  margin-bottom: var(--marginForMain);
+  /* margin-top: var(--marginForMain); */
+  /* margin-bottom: var(--marginForMain); */
 }
 
 .section {
@@ -215,6 +215,7 @@ button:focus {
 }
 
 .section-why {
+  margin-top: 38px;
 }
 
 .section-distractions {
@@ -300,6 +301,7 @@ button:focus {
 .gallery{
   display: grid;
   gap: var(--gapBetweenImg);
+  margin-bottom: var(--marginForMain);
 }
 
 .gallery_grid{
