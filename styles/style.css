@@ -22,7 +22,7 @@
 
 .header {
   width: 100%;
-  height: 100vh;
+  height: 100dvh;
   color: blue;
   /* background-image: var(--backgroundImage);
   background-size: cover;
@@ -149,5 +149,8 @@ button:active {
 @media (min-width: 1024px) {
   .page {
     background-attachment: fixed;
+  }
+  .header{
+    height: 100vh;
   }
 }
