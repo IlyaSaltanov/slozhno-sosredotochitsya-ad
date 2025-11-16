@@ -59,16 +59,46 @@
 }
 
 .header__theme-menu {
-}
-
-.header__theme-menu-item {
-}
-
-.header__theme-menu-button {
+  position: absolute;
+  width: 70px;
+  height: 98px;
+  top: 75px;
+  left: 295px;
+  /* border: 1px solid orange; */
 }
 
 .header__theme-menu-list {
+  width: 70px;
+  height: 98px;
+  display: grid;
+  row-gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr;
 }
+
+.header__theme-menu-item {
+  width: inherit;
+  height: 26px;
+}
+
+.header__theme-menu-button {
+  all: unset;
+  width: 70px;
+  height: 26px;
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: var(--accent-color);
+
+  text-transform: lowercase;
+}
+
+
 
 .main-title {
 }
