@@ -11,16 +11,17 @@
 .page {
   min-width: 375px;
   margin: 0px;
+  background-image: var(--backgroundImage);
+  background-size: 100% 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
   min-width: 375px;
   height: 100vh;
-  background-image: var(--backgroundImage);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+
 }
 
 .rec-label {
