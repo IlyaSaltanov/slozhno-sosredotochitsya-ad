@@ -238,6 +238,7 @@
 .sectionThree_Imagine{
   width: 355px;
   height: 408px;
+  margin-bottom: 20px;
 }
 
 .sectionThreeMiniTitle{
@@ -259,6 +260,35 @@
   text-shadow: 2px 2px 1px var(--accent-color);
 }
 
-.Music{
+.Music, .Walk, .EatWell, .sectionTwo_Multitasking, .Eat{
   margin-bottom: 20px;
 }
+
+.text{
+  margin-top: 10px;
+}
+
+.gallery{
+  width: 375px;
+  height: 1400px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.plashka{
+  width: 355px;
+  height: 24px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--background-color-forMain);
+  background-color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.gallery_grid{
+  display: grid;
+  width: 355px;
+  height: 1366px;
+}
+
