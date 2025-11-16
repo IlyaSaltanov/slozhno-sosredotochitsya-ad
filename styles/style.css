@@ -20,6 +20,7 @@
   height: 668px;
   /* border: 1px solid white; */
   background-image: var(--backgroundImage);
+  margin-bottom: 40px;
 }
 
 .rec-label {
