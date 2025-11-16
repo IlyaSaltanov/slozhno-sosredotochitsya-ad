@@ -49,7 +49,8 @@
   width: 33px;
   height: 26px;
   top: 10px;
-  left: 304px;
+  /* left: 304px; */
+  right: 38px;
 }
 
 .rec-dot {
@@ -57,7 +58,8 @@
   width: 9px;
   height: 9px;
   top: 18px;
-  left: 347px;
+  /* left: 347px; */
+  right: 19px;
   background-color: var(--accent-color);
   border-radius: 100%;
   box-shadow: 0px 0px 4px 2px #FF0070;
@@ -68,7 +70,8 @@
   width: 70px;
   height: 98px;
   top: 75px;
-  left: 295px;
+  /* left: 295px; */
+  right: 10px;
   /* border: 1px solid orange; */
 }
 
@@ -233,6 +236,7 @@ button:focus {
 }
 
 .card-title {
+  height: 23px;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
@@ -347,8 +351,79 @@ button:focus {
 @media (min-width: 1024px) {
   .page {
     background-attachment: fixed;
+    width: 100%;
   }
   .header {
     height: 100vh;
+    width: 100%;
   }
+  .rec-label {
+    top: 20px;
+    right: 48px;
+  }
+  .rec-dot {
+    top: 28px;
+    right: 29px;
+  }
+  .corner-top-right {
+    top: 20px;
+    right: 20px;
+  }
+  .corner-bottom-left {
+    bottom: 20px;
+    left: 20px;
+  }
+  .header__theme-menu {
+    top: 20px;
+    left: 397px;
+    height: 26px;
+    /* width: 230px; */
+  }
+  .header__theme-menu-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 26px;
+  }
+  .main-title {
+    top: 319px;
+    width: 759px;
+    height: 130px;
+    left: 0px;
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  }
+  .header-description {
+    left: 513px;
+    top: 563px;
+    width: 491px;
+    height: 71px;
+  }
+  .section-why {
+    grid-template-columns: 315px 1fr;
+  }
+  .section-title {
+    grid-row: 1/ span 2;
+    /* grid-column: 1/2; */
+  }
+  .section-distractions {
+    grid-template-rows: 47px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .title_concentration {
+    grid-row: 1/1;
+    grid-column: 1/1;
+  }
+  .multiCard {
+    grid-row: 2/2;
+    grid-column: 1/1;
+  }
+  .eatCard {
+    grid-row: 2/2;
+    grid-column: 2/2;
+  }
+  .GadgetsCard {
+    grid-row: 2/2;
+    grid-column: 3/3;
+  }
+  /* .card {
+    grid-row-start: auto;
+  } */
 }
