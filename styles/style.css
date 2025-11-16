@@ -4,6 +4,7 @@
   --accent-color: #FF0070;
   --colorDark_for_background_and_text: #000028;
   --colorForText: #F1B2CE;
+  --pinkColorForTitle: #DB00FF;
 }
 
 .page {
@@ -88,7 +89,7 @@
 }
 
 .main-title {
-  color: #DB00FF;
+  color: var(--pinkColorForTitle);
   width: 355px;
   height: 192px;
   margin-top: 65px;
@@ -99,6 +100,9 @@
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-description {
@@ -262,8 +266,6 @@ button:active {
 .gallery{
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: repeat(auto, auto); */
-  /* grid-template-rows: max-content; */
   grid-auto-rows: auto;
   gap: 10px;
 }
@@ -275,4 +277,21 @@ button:active {
 
 .gallery_grid img {
   width: 100%;
+}
+
+.footer{
+  width: 375px;
+  height: 668px;
+}
+
+.focus{
+  width: 348px;
+  height: 96px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 116px;
+  color: var(--pinkColorForTitle);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
