@@ -17,7 +17,8 @@
 /* ===== HEADER ===== */
 .header {
   width: 375px;
-  height: 668px;
+  min-height: 668px;
+  height: 100vh;
   /* border: 1px solid white; */
   background-image: var(--backgroundImage);
 }
@@ -283,7 +284,8 @@ button:active {
 
 .footer{
   width: 375px;
-  height: 668px;
+  min-height: 668px;
+  height: 100vh;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -308,8 +310,8 @@ button:active {
   z-index: 100;
   width: 25px;
   height: 25px;
-  top: 632px;
   left: 10px;
+  bottom: 10px;
   border-bottom: 1px solid var(--accent-color);
   border-left: 1px solid var(--accent-color);
 }
@@ -326,3 +328,9 @@ button:active {
 }
 
 /* Это конец кода для мобильной версии. */
+
+
+@media (min-width: 768px) {
+
+
+}
