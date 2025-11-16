@@ -22,6 +22,7 @@
   /* border: 1px solid white; */
   background-image: var(--backgroundImage);
   position: relative;
+  padding: 10px;
 }
 
 .rec-label {
@@ -29,15 +30,18 @@
   width: 33px;
   height: 26px;
   text-align: center;
-  margin-top: 10px;
+  /* margin-top: 10px;
   margin-right: 38px;
-  margin-left: 304px;
+  margin-left: 304px; */
   display: flex;
   justify-content: space-evenly; 
   align-items: center;
   font-family: 'IBM Plex mono';
   font-weight: 400;
   font-size: 18px;
+  position: absolute;
+  top: 10px;
+  right: 38px;
 }
 
 .rec-dot {
@@ -49,17 +53,20 @@
   position: absolute;
   top: 18px;
   right: 19px;
-  left: 347px;
+  /* left: 347px; */
   z-index: 99;
 }
 
 .header__theme-menu {
   width: 70px;
   height: 98px;
-  margin-top: 39px;
-  margin-left: auto;
+  /* margin-top: 39px;
+  margin-left: auto; */
   margin-right: 10px;
   color: var(--accent-color);
+  position: absolute;
+  top: 75px;
+  right: 10px;
 }
 
 .header__theme-menu-item {
@@ -96,9 +103,9 @@
   color: var(--pinkColorForTitle);
   width: 355px;
   height: 192px;
-  margin-top: 65px;
+  /* margin-top: 65px;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 10px; */
   text-shadow: 4px 4px 0 var(--accent-color);
   font-family: 'IBM Plex Mono';
   font-weight: 700;
@@ -107,21 +114,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 238px;
 }
 
 .header-description {
   width: 355px;
   height: 117px;
-  margin-top: 55px;
+  /* margin-top: 55px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-bottom: 66px;
+  margin-bottom: 66px; */
   background: var(--accent-color);
   font-family: 'IBM Plex Mono';
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
   color: var(--colorDark_for_background_and_text);
+  position: absolute;
+  bottom: 66px;
 }
 
 .corner-bottom-left {
@@ -335,7 +346,7 @@ button:active {
   .header {
       width: 100%;
       height: 1024px;
-      
+      background-repeat: no-repeat;
   }
   .page {
     min-width: 768px;
