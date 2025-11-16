@@ -7,18 +7,19 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
+  --gapBetweenImg: 10px
 }
 
 
 .page {
   min-width: 375px;
+  width: 375px;
   margin: 0px;
   background-attachment: fixed;
   background-image: var(--backgroundImage);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
 
 .header {
@@ -193,17 +194,21 @@ button:focus {
 
 .main {
   width: 100%;
-  height: auto;
+  /* height: max-content; */
   display: grid;
+  grid-auto-rows: auto;
   gap: var(--sections-gap);
   background-color: var(--colorDark_for_background_and_text);
   padding-left: var(--paddingDevice);
   padding-right: var(--paddingDevice);
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .section {
   display: grid;
   gap: 20px;
+  grid-auto-rows: auto;
 }
 
 .section-why {
@@ -216,8 +221,6 @@ button:focus {
 }
 
 .section-title {
-  width: 355px;
-  height: 47px;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
@@ -232,8 +235,6 @@ button:focus {
 }
 
 .card-title {
-  width: 355px;
-  height: 24px;
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
@@ -244,8 +245,6 @@ button:focus {
 }
 
 .card-content {
-  width: 355px;
-  height: 281px;
   font-family: "IBM Plex Mono";
   font-weight: 400;
   font-size: 18px;
@@ -255,15 +254,38 @@ button:focus {
 }
 
 .advice-subtitle {
+  width: 355px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  color: var(--colorDark_for_background_and_text);
+  background-color: var(--accent-color);
 }
 
 .advice-card {
+  display: grid;
+  gap: 10px;
 }
 
 .advice-card-title {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  color: var(--colorDark_for_background_and_text);
+  background-color: var(--accent-color);
 }
 
 .advice-card-content {
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  color: var(--colorForText);
 }
 
 .text {
@@ -273,9 +295,16 @@ button:focus {
 }
 
 .gallery{
+  display: grid;
+  gap: var(--gapBetweenImg);
 }
 
 .gallery_grid{
+  display: grid;
+  gap: var(--gapBetweenImg);
+}
+.gallery_grid img{
+  width: 100%;
 }
 
 .footer{
