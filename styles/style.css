@@ -6,6 +6,7 @@
   --colorForText: #F1B2CE;
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
+  --sections-gap: 50px;
 }
 
 
@@ -149,7 +150,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  letter-spacing: 0;
+  letter-spacing: 0.0;
   color: var(--colorDark_for_background_and_text);
 }
 
@@ -191,9 +192,18 @@ button:focus {
 }
 
 .main {
+  width: 100%;
+  height: auto;
+  display: grid;
+  gap: var(--sections-gap);
+  background-color: var(--colorDark_for_background_and_text);
+  padding-left: var(--paddingDevice);
+  padding-right: var(--paddingDevice);
 }
 
 .section {
+  display: grid;
+  gap: 20px;
 }
 
 .section-why {
@@ -206,15 +216,42 @@ button:focus {
 }
 
 .section-title {
+  width: 355px;
+  height: 47px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0.0;
+  color: var(--accent-color);
 }
 
 .card {
+  display: grid;
+  gap: 10px;
 }
 
 .card-title {
+  width: 355px;
+  height: 24px;
+  font-family: "IBM Plex Mono";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0.0;
+  color: var(--colorDark_for_background_and_text);
+  background-color: var(--accent-color);
 }
 
 .card-content {
+  width: 355px;
+  height: 281px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
+  letter-spacing: 0.0;
+  color: var(--colorForText);
 }
 
 .advice-subtitle {
