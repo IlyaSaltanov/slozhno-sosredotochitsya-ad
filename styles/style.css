@@ -11,8 +11,6 @@
   width: 375px;
   position: relative;
   display: grid;
-  row-gap: 40px;
-  background-color: var(--colorDark_for_background_and_text);
 }
 
 /* ===== HEADER ===== */
@@ -152,6 +150,7 @@ button:active {
 /* ===== MAIN CONTENT ===== */
 .main {
   width: 375px;
+  background-color: var(--colorDark_for_background_and_text);
   /* border: 1px solid white; */
 }
 
