@@ -129,6 +129,7 @@
 }
 
 button:active {
+  border: 1px solid #FF0070;
 }
 
 .main {
