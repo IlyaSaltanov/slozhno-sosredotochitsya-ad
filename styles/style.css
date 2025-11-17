@@ -441,16 +441,31 @@ button:focus {
     width: 100%;
    }
   .gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 23px 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 23px 1fr 1fr 1fr; */
     gap: var(--gapBetweenImg);
+    grid-template-areas: 
+    "plashka plashka plashka"
+    "sunset sunset ice_cream"
+    "tape books ice_cream"
+    "tape  street street";
    }
   .plashka {
-    grid-row: 1/1;
-    grid-column: 1/4;
-  }
+    grid-area: plashka;
+   }
   .sunset {
-    grid-row: 2 / 4;    /* Занимает 2 строки */
-    grid-column: 1 / span 2;
+    grid-area: sunset;
+  }
+  .ice_cream {
+    grid-area: ice_cream;
+  }
+  .tape {
+    grid-area: tape;
+  }
+  .books {
+    grid-area: books;
+  }
+  .street {
+    grid-area: street;
   }
 }
