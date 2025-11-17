@@ -453,19 +453,19 @@ button:focus {
   .plashka {
     grid-area: plashka;
    }
-  .sunset {
+  .sunsetDiv {
     grid-area: sunset;
   }
-  .ice_cream {
+  .ice_creamDiv {
     grid-area: ice_cream;
   }
-  .tape {
+  .tapeDiv {
     grid-area: tape;
   }
-  .books {
+  .booksDiv {
     grid-area: books;
   }
-  .street {
+  .streetDiv {
     grid-area: street;
   }
 }
