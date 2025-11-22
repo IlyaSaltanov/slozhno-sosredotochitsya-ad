@@ -9,12 +9,25 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  /* --backgroundImage: url("../images/cover-image-light.png");
+  --backgroundImage: url("../images/cover-image-light.png");
+  
   --color_for_decoration_header: #353430;
+
+  --colorForRectangles: #FF8DCB;
+  
   --color_for_background: #FFF1F7;
-  --colorForTextInRectangles: #353430;
+  
   --ColorForTitle: #FFC2E6;
-  --colorButtonHover: #32312D66; */
+
+  --ColorFor_Mini_Title: #353430;
+
+  --colorForTextInRectangles: #353430;
+
+  --color_for_basic_text: #F1B2CE;
+
+  --colorButtonHover: #FF007066;
+
+  --colorTextShadow: #FF8DCB;
 }
 
 .theme-light .page {
@@ -45,4 +58,35 @@
 }
 .theme-light .rec_circle {
   display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+      /* Вам также нужно будет написать ряд подобных селекторов */
+  --backgroundImage: url("../images/cover-image-light.png");
+  
+  --color_for_decoration_header: #353430;
+
+  --colorForRectangles: #FF8DCB;
+  
+  --color_for_background: #FFF1F7;
+  
+  --ColorForTitle: #FFC2E6;
+
+  --ColorFor_Mini_Title: #353430;
+
+  --colorForTextInRectangles: #353430;
+
+  --color_for_basic_text: #F1B2CE;
+
+  --colorButtonHover: #FF007066;
+
+  --colorTextShadow: #FF8DCB;
+  }
+  .rec-label {
+  display: none;
+  }
+  .rec_circle {
+    display: none;
+  }
 }

@@ -1,24 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 :root {
-  --backgroundImage: url("../images/cover-image-dark.png");
-  
-  --color_for_decoration_header: #FF0070;
 
-  --colorForRectangles: #FF0070;
-  
-  --color_for_background: #000028;
-  
-  --ColorForTitle: #DB00FF;
-
-  --ColorFor_Mini_Title: #000028;
-
-  --colorForTextInRectangles: #F1B2CE;
-
-  --color_for_basic_text: #F1B2CE;
-
-  --colorTextShadow: #FF0070;
-
-  --colorButtonHover: #FF007066;
 }
 
 
