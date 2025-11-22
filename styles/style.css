@@ -246,10 +246,11 @@ button:focus {
 .card {
   display: grid;
   gap: var(--cardGap);
+  grid-template-rows: 23px 1fr;
 }
 
 .card-title {
-  height: 23px;
+  /* height: 23px; */
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
