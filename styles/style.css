@@ -3,23 +3,20 @@
   --backgroundImage: url("../images/cover-image-dark.png");
   
   --color_for_decoration_header: #FF0070;
+
+  --colorForRectangles: #FF0070;
   
   --color_for_background: #000028;
   
   --ColorForTitle: #DB00FF;
 
-  --ColorFor_Mini_Title: #FF0070;
+  --ColorFor_Mini_Title: #000028;
 
   --colorForTextInRectangles: #F1B2CE;
 
   --color_for_basic_text: #F1B2CE;
 
-  --paddingDevice: 10px;
-  --sections-gap: 50px;
-  --gapBetweenImg: 10px;
-  --marginForMain: 40px;
-  --insideGapSection: 20px;
-  --cardGap: 10px;
+  --colorTextShadow: #FF0070;
 
   --colorButtonHover: #FF007066;
 }
@@ -59,7 +56,7 @@
   right: 38px;
 }
 
-.rec-dot {
+.rec_circle {
   position: absolute;
   width: 9px;
   height: 9px;
@@ -158,7 +155,7 @@
   line-height: 83%;
   letter-spacing: 0%;
   color: var(--ColorForTitle);
-  text-shadow: 4px 4px 0px var(--color_for_decoration_header);
+  text-shadow: 4px 4px 0px var(--colorTextShadow);
 }
 
 .header-description {
@@ -168,13 +165,13 @@
   /* top: 485px; */
   bottom: 66px;
   right: 10px;
-  background: var(--color_for_decoration_header);
+  background: var(--colorForRectangles);
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0.0;
-  color: var(--color_for_background);
+  color: var(--ColorFor_Mini_Title);
 }
 
 .corner-bottom-left {
@@ -260,8 +257,8 @@ button:focus {
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0.0;
-  color: var(--color_for_background);
-  background-color: var(--color_for_decoration_header);
+  color: var(--ColorFor_Mini_Title);
+  background-color: var(--colorForRectangles);
 }
 
 .card-content {
@@ -280,8 +277,8 @@ button:focus {
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0%;
-  color: var(--color_for_background);
-  background-color: var(--color_for_decoration_header);
+  color: var(--ColorFor_Mini_Title);
+  background-color: var(--colorForRectangles);
 }
 
 .advice-card {
@@ -295,8 +292,8 @@ button:focus {
   font-size: 18px;
   line-height: 23.4px;
   letter-spacing: 0%;
-  color: var(--color_for_background);
-  background-color: var(--color_for_decoration_header);
+  color: var(--ColorFor_Mini_Title);
+  background-color: var(--colorForRectangles);
 }
 
 .advice-card-content {
@@ -341,7 +338,7 @@ button:focus {
   line-height: 83%;
   letter-spacing: 0%;
   color: var(--ColorForTitle);
-  text-shadow: 2px 2px 0px #FF0070;
+  text-shadow: 2px 2px 0px var(--colorTextShadow);
 }
 
 .footer_corner-bottom-left {
@@ -383,7 +380,7 @@ button:focus {
     top: 20px;
     right: 48px;
   }
-  .rec-dot {
+  .rec_circle {
     top: 28px;
     right: 29px;
   }
