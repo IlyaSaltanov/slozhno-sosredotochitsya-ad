@@ -344,6 +344,7 @@ button:focus {
 @media (min-width: 1024px) {
   :root {
     --gapBetweenImg: 20px;
+    --sections-gap: 80px;
   }
   .page {
     background-attachment: fixed;
@@ -387,6 +388,7 @@ button:focus {
   }
   .section-why {
     grid-template-columns: 315px 1fr;
+    margin-top: 60px;
   }
   .section-title {
     grid-row: 1/ span 2;
@@ -484,8 +486,5 @@ button:focus {
     line-height: 18px;
     letter-spacing: 0;
     text-align: center;
-  }
-  .section-why {
-    margin-top: 60px;
   }
 }
