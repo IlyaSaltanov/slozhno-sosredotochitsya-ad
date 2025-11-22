@@ -1,9 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-:root {
-
-}
-
-
 .page {
   /* min-width: 375px; */
   /* width: 375px; */
@@ -214,7 +209,7 @@ button:focus {
 }
 
 .section-why {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 .section-title {
