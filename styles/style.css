@@ -11,6 +11,7 @@
   --marginForMain: 40px;
   --insideGapSection: 20px;
   --cardGap: 10px;
+  --colorButtonHover: #FF007066;
 }
 
 
@@ -68,25 +69,35 @@
 
 .header__theme-menu {
   position: absolute;
-  width: 70px;
-  height: 98px;
   top: 75px;
-  /* left: 295px; */
   right: 10px;
-  /* border: 1px solid orange; */
 }
 
 .header__theme-menu-list {
-  width: 70px;
-  height: 98px;
-  display: grid;
-  row-gap: 10px;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
 }
 
-.header__theme-menu-item {
-  width: inherit;
+.header__theme-menu-button {
+  border: 1px solid transparent;
+  color: var(--accent-color);
+  text-transform: lowercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  min-width: 70px;
   height: 26px;
+  font-family: "IBM Plex Mono";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0;
+  text-align: center;
 }
 
 /* .header__theme-menu-button {
@@ -185,8 +196,9 @@
 }
 
 button:hover {
-  border: 1px solid var(--accent-color);
+  /* border: 1px solid var(--accent-color); */
   opacity: 0.8;
+  border: 1px solid var(--colorButtonHover);
 }
 
 /* Состояние active (нажатие) */
@@ -395,16 +407,10 @@ button:focus {
     bottom: 20px;
     left: 20px;
   }
-  .header__theme-menu {
-    top: 20px;
-    left: 397px;
-    height: 26px;
-    /* width: 230px; */
+  /* .header__theme-menu {
   }
   .header__theme-menu-list {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 26px;
-  }
+  } */
   .main-title {
     top: 319px;
     width: 759px;
@@ -500,5 +506,26 @@ button:focus {
     font-size: 157px;
     width: 471px;
     height: 130px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+  .header__theme-menu {
+    position: static;
+    margin-top: 20px;
+  }
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .header__theme-menu-button {
+    font-family: "IBM Plex Mono";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-align: center;
   }
 }
