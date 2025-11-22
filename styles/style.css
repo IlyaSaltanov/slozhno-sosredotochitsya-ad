@@ -416,8 +416,8 @@ button:focus {
     grid-row-start: auto;
   } */
   .section-advice {
-    grid-template-columns: 236px 1fr;
-    grid-auto-rows: repeat(auto, 6);
+    grid-template-columns: 236px 472px;
+    grid-auto-rows: repeat(6, auto);
    }
   .bestConcentration {
     grid-column: 1/1;
