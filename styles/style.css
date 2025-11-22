@@ -209,7 +209,7 @@ button:focus {
 }
 
 .section-why {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .section-title {
@@ -352,6 +352,8 @@ button:focus {
   .header {
     height: 100dvh;
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .rec-label {
     top: 20px;
@@ -466,10 +468,6 @@ button:focus {
     width: 471px;
     height: 130px;
   }
-  .header {
-    display: flex;
-    justify-content: center;
-  }
   .header__theme-menu {
     position: static;
     margin-top: 20px;
@@ -486,5 +484,8 @@ button:focus {
     line-height: 18px;
     letter-spacing: 0;
     text-align: center;
+  }
+  .section-why {
+    margin-top: 60px;
   }
 }
