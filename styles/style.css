@@ -496,4 +496,9 @@ button:focus {
   .streetDiv {
     grid-area: street;
   }
+  .focus {
+    font-size: 157px;
+    width: 471px;
+    height: 130px;
+  }
 }
