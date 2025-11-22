@@ -7,7 +7,7 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
-  --gapBetweenImg: 6px;
+  --gapBetweenImg: 10px;
   --marginForMain: 40px;
   --insideGapSection: 20px;
   --cardGap: 10px;
@@ -313,8 +313,6 @@ button:focus {
 } */
 
   .gallery {
-  /* grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 23px 1fr 1fr 1fr; */
   width: 100%;
   gap: var(--gapBetweenImg);
   }
@@ -480,18 +478,23 @@ button:focus {
    }
   .sunsetDiv {
     grid-area: sunset;
+    height: 142px;
   }
   .ice_creamDiv {
     grid-area: ice_cream;
+    height: 355px;
   }
   .tapeDiv {
     grid-area: tape;
+    height: 237px;
   }
   .booksDiv {
     grid-area: books;
+    height: 355px;
   }
   .streetDiv {
     grid-area: street;
+    height: 237px;
   }
   .focus {
     font-size: 157px;
