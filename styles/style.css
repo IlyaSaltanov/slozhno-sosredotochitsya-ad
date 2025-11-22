@@ -150,7 +150,8 @@
   position: absolute;
   width: 355px;
   height: 117px;
-  top: 485px;
+  /* top: 485px; */
+  bottom: 66px;
   right: 10px;
   background: var(--accent-color);
   font-family: "IBM Plex Mono";
@@ -409,7 +410,8 @@ button:focus {
   }
   .header-description {
     right: 20px;
-    top: 563px;
+    /* top: 563px; */
+    bottom: 134px;
     width: 491px;
     height: 71px;
   }
@@ -455,8 +457,6 @@ button:focus {
     width: 100%;
    }
   .gallery {
-    /* grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 23px 1fr 1fr 1fr; */
     width: 100%;
     gap: var(--gapBetweenImg);
     grid-template-areas: 
