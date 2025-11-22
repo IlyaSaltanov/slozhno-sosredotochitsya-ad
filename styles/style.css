@@ -321,16 +321,20 @@ button:focus {
   }
 .footer {
   height: 100dvh;
+  width: 100%;
   position: relative;
   background-color: var(--colorDark_for_background_and_text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .focus {
-  position: absolute;
+  /* position: absolute; */
   width: 348px;
   height: 96px;
-  top: 286px;
-  left: 14px;
+  /* top: 286px;
+  left: 14px; */
   font-family: "IBM Plex Mono";
   font-weight: 700;
   font-size: 116px;
@@ -411,7 +415,7 @@ button:focus {
   .header-description {
     right: 20px;
     /* top: 563px; */
-    bottom: 134px;
+    bottom: 135px;
     width: 491px;
     height: 71px;
   }
