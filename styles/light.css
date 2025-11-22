@@ -10,19 +10,19 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   /* --backgroundImage: url("../images/cover-image-light.png");
-  --accent-color: #353430;
-  --colorDark_for_background_and_text: #FFF1F7;
-  --colorForText: #353430;
-  --pinkColorForTitle: #FFC2E6;
+  --color_for_decoration_header: #353430;
+  --color_for_background: #FFF1F7;
+  --colorForTextInRectangles: #353430;
+  --ColorForTitle: #FFC2E6;
   --colorButtonHover: #32312D66; */
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --backgroundImage: url("../images/cover-image-light.png");
-  --accent-color: #353430;
-  --colorDark_for_background_and_text: #FFF1F7;
-  --colorForText: #353430;
-  --pinkColorForTitle: #FFC2E6;
+  --color_for_decoration_header: #353430;
+  --color_for_background: #FFF1F7;
+  --colorForTextInRectangles: #353430;
+  --ColorForTitle: #FFC2E6;
   --colorButtonHover: #32312D66;
 }
