@@ -313,7 +313,6 @@ button:focus {
   gap: var(--gapBetweenImg);
   margin-bottom: var(--marginForMain);
   width: 100%;
-  padding: 0px 10px 0px 10px;
 }
 .gallery img {
   width: 100%;
