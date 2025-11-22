@@ -7,7 +7,7 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
-  --gapBetweenImg: 8px;
+  --gapBetweenImg: 6px;
   --marginForMain: 40px;
   --insideGapSection: 20px;
   --cardGap: 10px;
@@ -30,12 +30,6 @@
 .header {
   width: 100%;
   height: 100dvh;
-  color: blue;
-  /* background-image: var(--backgroundImage);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
   position: relative;
 }
 
@@ -389,7 +383,7 @@ button:focus {
     width: 100%;
   }
   .header {
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
   }
   .rec-label {
@@ -408,10 +402,6 @@ button:focus {
     bottom: 20px;
     left: 20px;
   }
-  /* .header__theme-menu {
-  }
-  .header__theme-menu-list {
-  } */
   .main-title {
     top: 319px;
     width: 759px;
