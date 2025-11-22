@@ -7,7 +7,7 @@
   --pinkColorForTitle: #DB00FF;
   --paddingDevice: 10px;
   --sections-gap: 50px;
-  --gapBetweenImg: 10px;
+  --gapBetweenImg: 8px;
   --marginForMain: 40px;
   --insideGapSection: 20px;
   --cardGap: 10px;
@@ -17,7 +17,7 @@
 .page {
   min-width: 375px;
   width: 375px;
-  margin: 0px;
+  margin: 0 auto;
   background-attachment: fixed;
   background-image: var(--backgroundImage);
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: center;
   width: 33px;
   height: 26px;
@@ -108,7 +108,7 @@
   text-transform: lowercase;
 } */
 
-.header__theme-menu-button {
+/* .header__theme-menu-button {
   background: none;
   border: none;
   padding: 0;
@@ -117,7 +117,6 @@
   width: 70px;
   height: 26px;
   display: flex;
-  /* justify-content: center;   */
   padding-left: 13px;
   padding-right: 13px;
   align-items: center;
@@ -127,7 +126,7 @@
   line-height: 18px;
   color: var(--accent-color);
   text-transform: lowercase;
-}
+} */
 
 
 
@@ -151,7 +150,7 @@
   width: 355px;
   height: 117px;
   top: 485px;
-  left: 10px;
+  right: 10px;
   background: var(--accent-color);
   font-family: "IBM Plex Mono";
   font-weight: 700;
@@ -394,7 +393,7 @@ button:focus {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   }
   .header-description {
-    left: 513px;
+    right: 20px;
     top: 563px;
     width: 491px;
     height: 71px;
