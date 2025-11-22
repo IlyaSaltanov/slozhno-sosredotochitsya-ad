@@ -372,7 +372,7 @@ button:focus {
     left: 20px;
   }
   .main-title {
-    top: 319px;
+    top: 463px;
     width: 759px;
     height: 130px;
     left: 0px;
@@ -385,7 +385,7 @@ button:focus {
     bottom: 183px;
   }
   .section-why {
-    grid-template-columns: 315px 1fr;
+    grid-template-columns: 236px 472px;
     margin-top: 60px;
   }
   .section-title {
@@ -416,7 +416,7 @@ button:focus {
     grid-row-start: auto;
   } */
   .section-advice {
-    grid-template-columns: 315px 1fr;
+    grid-template-columns: 236px 1fr;
     grid-auto-rows: repeat(auto, 6);
    }
   .bestConcentration {
@@ -469,12 +469,10 @@ button:focus {
     height: 130px;
   }
   .header__theme-menu {
-    position: static;
-    margin-top: 20px;
+    right: 20px;
+    top: 192px;
   }
   .header__theme-menu-list {
-    display: flex;
-    flex-direction: row;
     gap: 10px;
   }
   .header__theme-menu-button {
